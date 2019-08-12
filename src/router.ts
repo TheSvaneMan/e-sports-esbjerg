@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import Home from ".views/Home.vue";
 import Community from ".views/Community.vue";
 import Store from ".views/Store.vue";
 
@@ -11,7 +11,8 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: () =>
+        import("./views/Home.vue")
     },
     {
       path: "/about",

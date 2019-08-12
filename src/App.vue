@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <div>
+    <!-- Navigate -->
+    <div class="navigate">
       <b-navbar toggleable="lg" type="light" variant="light">
         <b-navbar-brand href="#">
           <router-link to="/">Home</router-link>|
@@ -42,7 +43,7 @@
         </b-collapse>
       </b-navbar>
     </div>
-
+ 
     <!-- Vue from ./views -->
     <router-view />
 
@@ -79,6 +80,10 @@
           </b-col>
         </b-row>
       </b-container>
+      <!-- Footer Copyright Section -->
+      <div id="FooterEndPage">
+        <p>2019 - eSports Esbjerg</p>
+      </div>
     </div>
   </div>
 </template>
@@ -95,7 +100,13 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+/* FooterEndPage */
 li {
   list-style-type: none;
+}
+
+/* FooterEndPage */
+#FooterEndPage {
+  color: #2c3e50;
 }
 </style>

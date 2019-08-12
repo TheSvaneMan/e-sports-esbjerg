@@ -38,7 +38,7 @@
           height="480"
           src="https://picsum.photos/1024/480/?image=55"
           alt="image slot"
-        >
+        />
       </b-carousel-slide>
 
       <!-- Slide with blank fluid image to maintain slide aspect ratio -->
@@ -51,27 +51,28 @@
     </b-carousel>
 
     <p class="mt-4">
-      Slide #: {{ slide }}<br>
+      Slide #: {{ slide }}
+      <br />
       Sliding: {{ sliding }}
     </p>
   </div>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        slide: 0,
-        sliding: null
-      }
+export default {
+  data() {
+    return {
+      slide: 0,
+      sliding: null
+    };
+  },
+  methods: {
+    onSlideStart(slide) {
+      this.sliding = true;
     },
-    methods: {
-      onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
-      }
+    onSlideEnd(slide) {
+      this.sliding = false;
     }
   }
+};
 </script>

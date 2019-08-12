@@ -15,6 +15,7 @@ import { CardPlugin } from 'bootstrap-vue';
 import { VBScrollspyPlugin } from 'bootstrap-vue';
 import { DropdownPlugin, TablePlugin } from 'bootstrap-vue';
 
+
 Vue.use(DropdownPlugin)
 Vue.use(TablePlugin)
 Vue.use(VBScrollspyPlugin)
