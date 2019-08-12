@@ -1,18 +1,16 @@
 <template>
-<div class="container-fluid">
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="container-fluid">
+    <div class="home">
+      <img alt="Vue logo" src="../assets/logo.png" />
+      <b-container></b-container>
+      <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    </div>
   </div>
-</div>
-  
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
-
 
 @Component({
   components: {
