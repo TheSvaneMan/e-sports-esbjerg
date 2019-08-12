@@ -1,10 +1,21 @@
 <template>
   <div class="container-fluid">
     <div class="home">
-      <img alt="Vue logo" src="../assets/logo.png" />
       <b-container>
         <!-- Home Page Design -->
         <!-- Main Page Design Layout -->
+        <div>
+          <b-card
+            overlay
+            img-src="https://picsum.photos/900/250/?image=3"
+            img-alt="Card Image"
+            text-variant="white"
+            title="Welcome to E-Sports Esbjerg!"
+            sub-title="Subtitle"
+          >
+            <b-card-text>Welcome to e-Sports</b-card-text>
+          </b-card>
+        </div>
         <b-row>
           <!-- Row 1 -->
           <b-col sm>Block 1 of Row 1</b-col>
@@ -19,6 +30,7 @@
       </b-container>
       <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
     </div>
+    <img alt="Vue logo" src="../assets/logo.png" />
   </div>
 </template>
 

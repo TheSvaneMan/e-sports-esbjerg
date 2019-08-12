@@ -28,7 +28,7 @@
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <div right>
-              <b-button pill variant="outline-primary" to="">Sign Up</b-button>
+              <b-button pill variant="outline-primary" to>Sign Up</b-button>
             </div>
             <b-nav-item-dropdown right>
               <!-- Using 'button-content' slot -->
@@ -42,14 +42,43 @@
         </b-collapse>
       </b-navbar>
     </div>
-    
+
     <!-- Vue from ./views -->
     <router-view />
 
     <!-- Footer Bar -->
     <div id="Footer">
-      
+      <b-container>
+        <!-- Footer Design -->
+        <!-- Main Page Design Layout -->
+        <b-row>
+          <!-- Row 1 -->
+          <b-col align-self="start" sm>
+            <!-- Left Column "Footer" -->
+            <h1>Info</h1>
+            <ul>
+              <li>admin@esport-esbjerg.dk</li>
+              <li>+45 3113 1774</li>
 
+              <li></li>
+            </ul>
+          </b-col>
+          <b-col align-self="end" sm>
+            <h1>Socials</h1>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com">facebook</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com">instagram</a>
+              </li>
+              <li>
+                <a href="https://www.discord.com">discord</a>
+              </li>
+            </ul>
+          </b-col>
+        </b-row>
+      </b-container>
     </div>
   </div>
 </template>
@@ -65,5 +94,8 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+li {
+  list-style-type: none;
 }
 </style>
