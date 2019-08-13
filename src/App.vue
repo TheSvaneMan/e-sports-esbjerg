@@ -2,43 +2,33 @@
   <div id="app">
     <!-- NavigationApp -->
     <NavigationApp></NavigationApp>
-
     <!-- Vue from ./views -->
     <router-view />
-
-    <!-- NEWS -->
-    <div id="app" class="container">
-      <h1 class="text-center mb-5">My component based structure</h1>
-      <div class="row">
-        <div class="col-md-9 col-12">
-          <news-holder v-on:read="newsRead" date="yesterday"></news-holder>
-        </div>
-        <div class="col-md-2 d-sm-none d-md-block">
-          <links-holder></links-holder>
-
-          <adds-holder></adds-holder>
-        </div>
-      </div>
-    </div>
-
     <!-- Footer -->
     <FooterApp></FooterApp>
-    </div>
+  </div>
 </template>¨
 
 <script>
+/* Individual Page Components */
+/* CommunityPage */
 /* News Components */
-import NewsHolder from "./components/NewsHolder";
-import LinksHolder from "./components/LinkHolder";
-import AddsHolder from "./components/AddsHolder";
+import NewsHolder from "./components/view-apps/CommunityPage/News/AddsHolder";
+import LinksHolder from "./components/view-apps/CommunityPage/News/LinkHolder";
+import AddsHolder from "./components/view-apps/CommunityPage/News/AddsHolder";
 
-/* UI-based-Apps */
-import NavigationApp from "./components/ui/navigation-app"
-import FooterApp from "./components/ui/footer-app"
+/* - - - - - - - - - - - - -  - - - - - - - - -  - - - - -  - - - - - - - -  - - */
+
+/* UI Apps */
+/* Header Navigation */
+import NavigationApp from "./components/ui/navigation-app";
+/* Footer */
+import FooterApp from "./components/ui/footer-app";
+/* - - - - - - - - - - - - -  - - - - - - - - -  - - - - -  - - - - - - - -  - - */
 
 export default {
   name: "app",
-  components: { AddsHolder, LinksHolder, NewsHolder, NavigationApp, FooterApp },
+  components: { NavigationApp, FooterApp },
 
   methods: {
     newsRead(num) {
