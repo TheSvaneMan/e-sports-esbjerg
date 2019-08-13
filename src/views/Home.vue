@@ -7,7 +7,7 @@
         <!-- Overlay Card Home Page -->
         <b-card
           overlay
-          img-src="./assets/Earth_Is_Our_Home_CloseUp_Edited.jpg"
+          img-src="<projectRoot>/assets/Earth_Is_Our_Home_CloseUp_Edited.jpg"
           img-alt="Card Image"
           text-variant="white"
           title="Welcome to E-Sports Esbjerg!"
@@ -23,23 +23,14 @@
             <div>
               <!-- About Box -->
               <div class="mt-4">
-                <b-card
-                  no-body
-                  class="overflow-hidden"
-                  style="max-width: 540px;"
-                >
+                <b-card no-body class="overflow-hidden" style="max-width: 540px;">
                   <b-row no-gutters>
                     <b-col md="6">
-                      <b-card-img
-                        src="https://picsum.photos/400/400/?image=20"
-                        class="rounded-0"
-                      ></b-card-img>
+                      <b-card-img src="https://picsum.photos/400/400/?image=20" class="rounded-0"></b-card-img>
                     </b-col>
                     <b-col md="6">
                       <b-card-body title="About">
-                        <b-card-text
-                          >This box shall have a link to About</b-card-text
-                        >
+                        <b-card-text>This box shall have a link to About</b-card-text>
                       </b-card-body>
                     </b-col>
                   </b-row>
@@ -52,10 +43,7 @@
             <b-card no-body class="overflow-hidden" style="max-width: 540px;">
               <b-row no-gutters>
                 <b-col md="6">
-                  <b-card-img
-                    src="https://picsum.photos/400/400/?image=20"
-                    class="rounded-0"
-                  ></b-card-img>
+                  <b-card-img src="https://picsum.photos/400/400/?image=20" class="rounded-0"></b-card-img>
                 </b-col>
                 <b-col md="6">
                   <b-card-body title="Gallery">
@@ -78,16 +66,11 @@
             <b-card no-body class="overflow-hidden" style="max-width: 540px;">
               <b-row no-gutters>
                 <b-col md="6">
-                  <b-card-img
-                    src="https://picsum.photos/400/400/?image=20"
-                    class="rounded-0"
-                  ></b-card-img>
+                  <b-card-img src="https://picsum.photos/400/400/?image=20" class="rounded-0"></b-card-img>
                 </b-col>
                 <b-col md="6">
                   <b-card-body title="Community">
-                    <b-card-text
-                      >This is going to be a box for Community.</b-card-text
-                    >
+                    <b-card-text>This is going to be a box for Community.</b-card-text>
                   </b-card-body>
                 </b-col>
               </b-row>
@@ -98,16 +81,11 @@
             <b-card no-body class="overflow-hidden" style="max-width: 540px;">
               <b-row no-gutters>
                 <b-col md="6">
-                  <b-card-img
-                    src="https://picsum.photos/400/400/?image=20"
-                    class="rounded-0"
-                  ></b-card-img>
+                  <b-card-img src="https://picsum.photos/400/400/?image=20" class="rounded-0"></b-card-img>
                 </b-col>
                 <b-col md="6">
                   <b-card-body title="Store">
-                    <b-card-text
-                      >This is going to be a box for store.</b-card-text
-                    >
+                    <b-card-text>This is going to be a box for store.</b-card-text>
                   </b-card-body>
                 </b-col>
               </b-row>

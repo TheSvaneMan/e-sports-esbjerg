@@ -1,5 +1,6 @@
 <template>
   <div class="community">
+    
     <b-container class="bv-example-row">
       <b-row>
         <b-col>
@@ -15,3 +16,16 @@
     </b-container>
   </div>
 </template>
+
+<script lang="ts">
+import gallery from "@components/gallery-app.vue";
+import { Component, Vue } from "vue-property-decorator";
+import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+
+@Component({
+  components: {
+    HelloWorld
+  }, 
+})
+export default class Home extends Vue {}
+</script>

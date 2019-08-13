@@ -15,9 +15,6 @@
               <router-link to="/about">About</router-link>
             </b-nav-item>
             <b-nav-item href="#">
-              <router-link to="/gallery">Gallery</router-link>
-            </b-nav-item>
-            <b-nav-item href="#">
               <router-link to="/community">Community</router-link>
             </b-nav-item>
             <b-nav-item href="#">
@@ -46,6 +43,21 @@
 
     <!-- Vue from ./views -->
     <router-view />
+
+    <!-- NEWS -->
+    <div id="app" class="container">
+      <h1 class="text-center mb-5">My component based structure</h1>
+      <div class="row">
+        <div class="col-md-9 col-12">
+          <news-holder v-on:read="newsRead" date="yesterday"></news-holder>
+        </div>
+        <div class="col-md-2 d-sm-none d-md-block">
+          <links-holder></links-holder>
+
+          <adds-holder></adds-holder>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer Bar -->
     <div id="Footer">
@@ -87,7 +99,23 @@
       </div>
     </div>
   </div>
-</template>
+</template>¨
+
+<script>
+import NewsHolder from "./components/NewsHolder";
+import LinksHolder from "./components/LinkHolder";
+import AddsHolder from "./components/AddsHolder";
+
+export default {
+  name: "app",
+  components: { AddsHolder, LinksHolder, NewsHolder },
+  methods: {
+    newsRead(num) {
+      alert("You read news! Number is: " + num);
+    }
+  }
+};
+</script>
 
 <style>
 #app {
