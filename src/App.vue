@@ -59,6 +59,7 @@
             <h1>Info</h1>
             <ul>
               <li>admin@esport-esbjerg.dk</li>
+              <li>Cheese</li>
               <li>+45 3113 1774</li>
 
               <li></li>
