@@ -5,14 +5,11 @@ import Community from ".views/Community.vue";
 import Store from ".views/Store.vue";
 import About from ".views/About.vue";
 
-
-
-
 Vue.use(Router);
 
 export default new Router({
-  
-  
+
+
   routes: [
     { path: "/", name: "home", component: () => import("./views/Home.vue") },
     {
@@ -41,5 +38,5 @@ export default new Router({
     }
   ],
 
-  
+
 });

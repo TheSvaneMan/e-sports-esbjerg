@@ -11,13 +11,6 @@
 
 <script>
 /* Individual Page Components */
-/* CommunityPage */
-/* News Components */
-import NewsHolder from "./components/apps/CommunityPage/News/AddsHolder";
-import LinksHolder from "./components/apps/CommunityPage/News/LinkHolder";
-import AddsHolder from "./components/apps/CommunityPage/News/AddsHolder";
-
-/* - - - - - - - - - - - - -  - - - - - - - - -  - - - - -  - - - - - - - -  - - */
 
 /* UI Apps */
 /* Header Navigation */
