@@ -5,9 +5,12 @@
         <!-- Home Page Design -->
         <!-- Main Page Design Layout -->
         <!-- Overlay Card Home Page -->
+        <!-- Banner -->
+        <banner></banner>
+        <!--  -->
         <b-card
           overlay
-          img-src="<projectRoot>/assets/Earth_Is_Our_Home_CloseUp_Edited.jpg"
+          img-src="./assets/Earth_Is_Our_Home_CloseUp_Edited.jpg"
           img-alt="Card Image"
           text-variant="white"
           title="Welcome to E-Sports Esbjerg!"
@@ -15,7 +18,7 @@
           <!-- Overlay Title -->
           <b-card-text>Welcome to e-Sports</b-card-text>
         </b-card>
-
+        <HelloWorld></HelloWorld>
         <b-row>
           <!-- Row 1 -->
           <b-col sm>
@@ -100,10 +103,12 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import banner from "@/components/apps/HomePage/banner-app.vue";
 
 @Component({
   components: {
-    HelloWorld
+    HelloWorld,
+    banner
   }
 })
 export default class Home extends Vue {}

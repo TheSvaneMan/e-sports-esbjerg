@@ -13,9 +13,9 @@
 /* Individual Page Components */
 /* CommunityPage */
 /* News Components */
-import NewsHolder from "./components/view-apps/CommunityPage/News/AddsHolder";
-import LinksHolder from "./components/view-apps/CommunityPage/News/LinkHolder";
-import AddsHolder from "./components/view-apps/CommunityPage/News/AddsHolder";
+import NewsHolder from "./components/apps/CommunityPage/News/AddsHolder";
+import LinksHolder from "./components/apps/CommunityPage/News/LinkHolder";
+import AddsHolder from "./components/apps/CommunityPage/News/AddsHolder";
 
 /* - - - - - - - - - - - - -  - - - - - - - - -  - - - - -  - - - - - - - -  - - */
 
@@ -30,11 +30,7 @@ export default {
   name: "app",
   components: { NavigationApp, FooterApp },
 
-  methods: {
-    newsRead(num) {
-      alert("You read news! Number is: " + num);
-    }
-  }
+  methods: {}
 };
 </script>
 

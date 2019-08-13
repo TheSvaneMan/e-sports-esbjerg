@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from ".views/Home.vue";
 import Community from ".views/Community.vue";
 import Store from ".views/Store.vue";
+import About from ".views/About.vue";
 
 
 
