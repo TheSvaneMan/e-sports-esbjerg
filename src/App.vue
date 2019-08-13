@@ -43,7 +43,7 @@
         </b-collapse>
       </b-navbar>
     </div>
- 
+
     <!-- Vue from ./views -->
     <router-view />
 
