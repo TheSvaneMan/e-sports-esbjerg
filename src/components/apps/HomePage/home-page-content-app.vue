@@ -15,12 +15,11 @@
             title="JOIN THE E-SPORTS ESBJERG CLUB TODAY"
             sub-title
           >
-
             <!-- Sign Up Today -->
             <div>
               <b-button size="lg" variant="light">Sign Up</b-button>
             </div>
-            <h3>Hello</h3>
+            <card-text>Easily become a </card-text>
           </b-card>
         </div>
       </b-col>
@@ -35,13 +34,12 @@
             img-src="@/assets/gallery/banner/Community_Card_Image.jpg"
             img-alt="Community Card Image"
             text-variant="white"
-            title="OUR COMMUNITY"
+            title
             sub-title
           >
-  
-            <!-- Sign Up Today -->
+            <!-- Community Page Re-direct  -->
             <div>
-              <b-button size="lg" variant="light">Sign Up</b-button>
+              <b-button size="lg" variant="light">Community Page</b-button>
             </div>
           </b-card>
         </div>

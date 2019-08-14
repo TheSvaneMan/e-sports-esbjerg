@@ -138,16 +138,13 @@
       </b-carousel-slide>
     </b-carousel>
 
-    <p class="mt-4">
-      Image {{ slide }}
-    </p>
+    <p class="mt-4">Image {{ slide }}</p>
   </div>
 
   <!-- Social Media -->
 </template>
 
 <script>
-
 export default {
   name: "gallery",
   data() {

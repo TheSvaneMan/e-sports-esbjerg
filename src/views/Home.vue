@@ -1,16 +1,17 @@
 <template>
   <div class="container-fluid">
+    <!-- Home Page Layout -->
     <div class="home">
       <!-- Hello, introduction box -->
       <hello></hello>
       <!-- Banner -->
       <banner></banner>
+      <!-- GAMES -->
+      <GamesView></GamesView>
       <!-- HomePageContent -->
       <HomePageContent></HomePageContent>
       <!-- - - - -->
-      <!-- GAMES -->
-      <GamesView></GamesView>
-
+   
     </div>
   </div>
 </template>

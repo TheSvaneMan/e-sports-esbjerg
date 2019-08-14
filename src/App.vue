@@ -1,13 +1,15 @@
 <template>
+  <!-- WebSite Layout -->
   <div id="app">
     <!-- NavigationApp -->
     <NavigationApp></NavigationApp>
-    <!-- Vue from ./views -->
+    <!-- Webpages View from ./views -->
     <router-view />
     <!-- Space between Router View & Footer -->
     <br />
     <!-- Footer -->
     <FooterApp></FooterApp>
+    <!-- End of main page  -->
   </div>
 </template>¨
 
@@ -40,23 +42,29 @@ export default {
 }
 /* Navigate Styling */
 .navigate {
-  background: rgb(74, 74, 80);
+  background: rgb(67, 67, 75);
 }
 .navbar-brand a {
-color: white;
+  color: white;
 }
 .navigate li a {
-  color: whitesmoke;
+  color: rgb(219, 219, 219);
 }
 
+/* - - - - - - - */
 
+/* Main Page Style */
+
+/* - - - - - - - */
 
 /* FooterEndPage */
 
 .footer {
-  background-color: rgb(74, 74, 80);
+  background-color: rgb(67, 67, 75);
 }
-.footer h1, h4, li a {
+.footer h1,
+h4,
+li a {
   color: white;
 }
 
@@ -65,12 +73,12 @@ color: white;
   color: white;
 }
 
-
 /* FooterEndPage */
-#FooterEndPage{
+#FooterEndPage {
   background-color: black;
 }
 #FooterEndPage p {
   color: white;
 }
+/* - - - - - - - */
 </style>

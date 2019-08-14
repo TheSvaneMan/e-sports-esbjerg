@@ -1,5 +1,6 @@
 <template>
   <div class="container-fluid">
+    <!-- Store Page Layout -->
     <div class="store">
       <!-- StorePage Design -->
       <!-- StorePage Design Layout -->

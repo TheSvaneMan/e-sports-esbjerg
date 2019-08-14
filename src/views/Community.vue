@@ -1,13 +1,13 @@
 <template>
   <div class="container-fluid">
+    <!-- CommunityPage Layout -->
     <div class="community">
       <!-- Community Page Header -->
       <h1>Community Page</h1>
-
-      <!-- CommunityPage Layout -->
       <!-- Gallery -->
       <Gallery></Gallery>
       <!-- -->
+      <!-- Social Media Links -->
       <socials></socials>
     </div>
   </div>

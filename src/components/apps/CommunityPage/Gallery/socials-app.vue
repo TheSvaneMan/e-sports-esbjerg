@@ -19,16 +19,11 @@
 </template>
 
 <script>
-
 export default {
   name: "socials",
   data() {
-    return {
-     
-    };
+    return {};
   },
-  methods: {
-   
-  }
+  methods: {}
 };
 </script>

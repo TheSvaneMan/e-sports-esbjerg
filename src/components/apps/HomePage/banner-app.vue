@@ -17,7 +17,7 @@
       </b-carousel>
     </div>
     <!-- Space between Banner & Home Page Content -->
-    <br>
+    <br />
   </div>
 </template>
 
