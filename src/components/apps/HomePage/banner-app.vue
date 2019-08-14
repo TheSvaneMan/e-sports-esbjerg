@@ -1,7 +1,23 @@
 <template>
   <div class="banner">
-    <h1>Banner</h1>
-    <img src="@/assets/img/banner/home-banner.jpg" alt="image"/>
+    <!-- Front Page Banner -->
+    <div>
+      <!-- Carousel -->
+      <b-carousel
+        id="carousel-fade"
+        style="text-shadow: 0px 0px 2px #000"
+        :interval="3000"
+        fade
+        img-width="1024"
+        img-height="200"
+      >
+        <b-carousel-slide caption img-src="@/assets/gallery/banner/banner_image_1.jpg"></b-carousel-slide>
+        <b-carousel-slide caption img-src="@/assets/gallery/banner/banner_image_2.jpg"></b-carousel-slide>
+        <b-carousel-slide caption img-src="@/assets/gallery/banner/banner_image_3.jpg"></b-carousel-slide>
+      </b-carousel>
+    </div>
+    <!-- Space between Banner & Home Page Content -->
+    <br>
   </div>
 </template>
 

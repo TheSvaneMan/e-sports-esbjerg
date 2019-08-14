@@ -17,5 +17,7 @@ export default {name: "hello",
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  .hello h1 {
+    color: Red;
+  }
 </style>
