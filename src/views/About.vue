@@ -1,12 +1,12 @@
 <template>
   <div class="container-fluid">
     <div class="about">
-      <!-- AboutPage Design -->
-      <!-- AboutPage Layout -->
-      <!-- Heading -->
-      <h1>This is an about page</h1>
-      <AboutPageApp></AboutPageApp>
-      <p></p>
+      <h1>ABOUT ESBJERG ESPORTS GAMING</h1>
+      <!-- Our Team App -->
+      <OurTeamApp></OurTeamApp>
+      <hr />
+      <!-- About Us - Discord Section -->
+      <FAQapp></FAQapp>
     </div>
   </div>
 </template>
@@ -14,12 +14,14 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
-import AboutPageApp from "@/components/apps/About/about-page-app.vue";
+import FAQapp from "@/components/apps/AboutPage/faq-app.vue";
+import OurTeamApp from "@/components/apps/AboutPage/our-team-app.vue";
 
 @Component({
   components: {
     HelloWorld,
-    AboutPageApp
+    FAQapp,
+    OurTeamApp
   }
 })
 export default class about extends Vue {}

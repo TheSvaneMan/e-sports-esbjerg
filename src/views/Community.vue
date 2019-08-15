@@ -7,6 +7,7 @@
       <Gallery></Gallery>
       <!-- Social Media Links -->
       <socials></socials>
+      <hr />
     </div>
   </div>
 </template>

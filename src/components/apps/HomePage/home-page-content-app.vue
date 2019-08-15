@@ -18,16 +18,19 @@
             align-v="center"
           >
             <!-- Gallery Re-direct-->
-            
-
 
             <div id="RedirectToGallery">
               <h1>COMMUNITY</h1>
-              <b-button id="GalleryRedirect" variant="outline-primary" size="lg">
-                <router-link to="/community">Gallery</router-link>
-              </b-button>
+              <b-button
+                id="GalleryRedirect"
+                pill
+                variant="primary"
+                size="lg"
+                to="/community"
+              >Gallery</b-button>
               <br />
-              <card-text>Explore the BattleStations</card-text>
+              <br />
+              <card-text></card-text>
             </div>
           </b-card>
         </div>
@@ -37,6 +40,7 @@
     <!-- Community Section-->
     <b-row align-v="center">
       <b-col>
+        <div class="parallax"></div>
         <div id="CommunityTab">
           <b-img src="@/assets/gallery/community/PC_Setup1.jpg" fluid alt="Responsive image"></b-img>
           <br />
@@ -44,13 +48,9 @@
           <br />
           <br />
           <h1>Join the Battle Today!</h1>
-          <br />
-          <p>Be part of the Esbjerg eSports Community today by signing up to one of our</p>
-          <p>subscription based services we provide</p>
-          <br />
-          <h3>READ MORE ABOUT THE POSSIBILITIES</h3>
-          <p>by following the link below</p>
-          <b-button variant="outline-light" size="lg">
+          <p>Join the community today to share your best moments, hold discussions on our Discord Server</p>
+          <p>The eSports Esbjerg Community FORUM provides game strategies, guides and features</p>
+          <b-button variant="outline-light" size="lg" to="/SignUp">
             <router-link to="/SignUp">Sign Up</router-link>
           </b-button>
         </div>
@@ -81,11 +81,11 @@ export default {
 </script>
 
 <style lang="css">
+/* Page Styling*/
 #SignUpImageOverlay {
   border-style: none;
   text-decoration: none;
 }
-
 
 #GalleryImageOverlay {
   border-style: none;
@@ -95,6 +95,7 @@ export default {
   height: auto;
   border-style: none;
 }
+
 .router-link {
   text-decoration-color: white;
 }

@@ -1,5 +1,9 @@
 <template>
   <div class="gallery">
+    <hr />
+    <!-- GALLERY HEADER -->
+    <h1>GALLERY</h1>
+    <hr />
     <!-- Image Carousel (Can be updated by copying <b-carousel-slide> and inserting image dir) -->
     <b-carousel
       id="carousel-1"
@@ -137,10 +141,8 @@
         />
       </b-carousel-slide>
     </b-carousel>
-
-    <p class="mt-4">Image {{ slide }}</p>
+    <hr />
   </div>
-
   <!-- Social Media -->
 </template>
 
@@ -163,3 +165,9 @@ export default {
   }
 };
 </script>
+
+<style >
+.gallery h1 {
+  color: white;
+}
+</style>

@@ -52,11 +52,11 @@
           </ul>
         </b-col>
       </b-row>
+      <b-row id="Copyright">
+        <p>Copyright eSports Esbjerg 2019</p>
+      </b-row>
     </b-container>
     <!-- Footer Copyright Section -->
-    <div id="FooterEndPage">
-      <p>2019 - eSports Esbjerg</p>
-    </div>
   </div>
 </template>
 

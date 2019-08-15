@@ -29,6 +29,7 @@
     <!-- Space between Banner & Home Page Content -->
     <br />
   </div>
+  
 </template>
 
 <script lang="ts">

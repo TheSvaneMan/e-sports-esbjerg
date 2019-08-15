@@ -9,7 +9,6 @@
 
     <!-- Footer -->
     <FooterApp></FooterApp>
-    <!-- End of main page  -->
   </div>
 </template>¨
 
@@ -32,6 +31,7 @@ export default {
 </script>
 
 <style>
+/* - - - - - - - */
 /* Entire Page Styling */
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -57,32 +57,61 @@ export default {
 
 /* Main Page Style */
 
-.gamesview h1, h3, p {
+.gamesview h1,
+h3,
+p {
   color: white;
 }
 
-/* Community  */
+/* - - - - - - - */
+/* Sign Up Page */
+.SignUpApp {
+  color: white;
+  text-align: center;
+  display: inline;
+  max-width: 350px;
+}
+
+/* SignUpApp Styling */
+
+.SignUp {
+  padding-top: 40px;
+  color: white;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* - - - - - - - */
+
+/* Community Page */
+.about {
+  padding-top: 50px;
+  height: auto;
+  border-style: solid;
+  text-align: center;
+}
+.about h1 {
+  padding-bottom: 50px;
+  color: white;
+}
+/* - - - - - - - */
+/* AboutPage */
 
 #CommunityTab {
   height: 200px;
   border-style: solid;
 }
-/* SignUpApp Styling */
-
-.SignUp {
-  color: white;
-  height: 200px;
-}
-
 /* - - - - - - - */
 
-/* FooterEndPage */
+/* Footer Navigation */
 
 .footer {
   background-color: #131723;
   justify-content: center;
 }
-.footer h1, h2,
+.footer h1,
+h2,
 h4,
 li a {
   color: white;
@@ -93,10 +122,16 @@ li a {
   color: white;
 }
 
+.footer p {
+  color: white;
+}
+
 /* FooterEndPage */
 #FooterEndPage {
-  justify-content: center;
   background-color: #131723;
+}
+#Copyright {
+  justify-content: center;
 }
 /* - - - - - - - */
 </style>
