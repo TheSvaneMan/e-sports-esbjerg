@@ -3,10 +3,8 @@
     <!-- CommunityPage Layout -->
     <div class="community">
       <!-- Community Page Header -->
-      <h1>Community Page</h1>
       <!-- Gallery -->
       <Gallery></Gallery>
-      <!-- -->
       <!-- Social Media Links -->
       <socials></socials>
     </div>

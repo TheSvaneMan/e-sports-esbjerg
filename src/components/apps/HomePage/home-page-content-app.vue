@@ -8,82 +8,89 @@
         <!-- Image Overlay -->
         <div>
           <b-card
+            id="SignUpImageOverlay"
             overlay
             img-src="@/assets/gallery/banner/Sign_Up.jpeg"
             img-alt="Card Image"
             text-variant="white"
-            title="JOIN THE E-SPORTS ESBJERG CLUB TODAY"
+            title="ESBJERG E-SPORTS CLUB"
             sub-title
           >
             <!-- Sign Up Today -->
             <div>
               <b-button size="lg" variant="light">Sign Up</b-button>
             </div>
-            <card-text>Easily become a </card-text>
+            <card-text>Easily become a member today!</card-text>
           </b-card>
         </div>
       </b-col>
     </b-row>
-    <!-- Row 2 -->
+    <br />
+    <!-- Community Section-->
     <b-row align-v="center">
-      <!-- Community -->
       <b-col>
+        <div id="CommunityTab">
+          <b-img src="@/assets/gallery/community/PC_Setup1.jpg" fluid alt="Responsive image"></b-img>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1>Join the Battle Today!</h1>
+          <br />
+          <p>Be part of the Esbjerg eSports Community today by signing up to one of our</p>
+          <p>subscription based services we provide</p>
+          <br />
+          <h3>READ MORE ABOUT THE POSSIBILITIES</h3>
+          <p>by following the link below</p>
+          <b-button variant="outline-light" size="lg">
+            <router-link to="/SignUp">Sign Up</router-link>
+          </b-button>
+        </div>
         <div class="mt-4">
           <b-card
+            id="GalleryImageOverlay"
             overlay
             img-src="@/assets/gallery/banner/Community_Card_Image.jpg"
             img-alt="Community Card Image"
-            text-variant="white"
+            variant="dark"
             title
             sub-title
-          >
-            <!-- Community Page Re-direct  -->
-            <div>
-              <b-button size="lg" variant="light">Community Page</b-button>
-            </div>
-          </b-card>
+          ></b-card>
         </div>
       </b-col>
     </b-row>
-    <!-- Row 3 -->
-    <b-row align-v="center">
-      <b-col>
-        <!-- Store -->
-        <h4>STORE</h4>
-        <b-card
-          img-src="https://placekitten.com/300/300"
-          img-alt="Card image"
-          img-left
-          class="mb-3"
-        >
-          <b-card-text>Games and Services availabel for Purchase</b-card-text>
-        </b-card>
-      </b-col>
-    </b-row>
-    <!-- Row 4 -->
-    <b-row align-v="center">
-      <!-- Sign Up -->
-      <b-col>
-        <div class="mt-4">
-          <h4>SIGN UP</h4>
-          <b-card img-src="https://placekitten.com/300/300" img-alt="Card image" img-right>
-            <b-card-text>Sign up today and Join the great community!</b-card-text>
-          </b-card>
-        </div>
-      </b-col>
-    </b-row>
+    <!-- Page End -->
   </div>
+  <!-- Page End -->
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 export default {
-  name: "HomePageContent",
-  data: function() {
-    return {};
-  }
+  name: "HomePageContent"
 };
 </script>
 
-<style lang="scss"></style> 
+<style lang="css">
+#SignUpImageOverlay {
+  border-style: none;
+}
+
+#GalleryImageOverlay {
+  border-style: none;
+}
+#SignUpToday {
+  color: white;
+  height: auto;
+  border-style: none;
+}
+
+#CommunityTab {
+  background-color: #131723;
+  color: white;
+  height: auto;
+  border-style: none;
+  padding-bottom: 50px;
+}
+</style> 

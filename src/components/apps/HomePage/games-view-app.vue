@@ -4,24 +4,23 @@
     <br />
     <div>
       <!-- Carousel -->
-      <h1>GAMES WE PLAY</h1>
       <b-carousel
         id="carousel-fade"
         style="text-shadow: 0px 0px 2px #000"
-        :interval="3000"
+        :interval="2000"
         fade
         img-width="1024"
         img-height="200"
       >
-        <b-carousel-slide caption img-src="@/assets/gallery/games/CSGO_Wallpaper.jpg">
-          <button>STORE</button>
-        </b-carousel-slide>
-        <b-carousel-slide caption img-src="@/assets/gallery/games/Fortnite_Wallpaper.jpg">
-          <button>STORE</button>
-        </b-carousel-slide>
-        <b-carousel-slide caption img-src="@/assets/gallery/games/Overwatch_Wallpaper.jpg">
-          <button>STORE</button>
-        </b-carousel-slide>
+        <h1>GAMES WE PLAY</h1>
+        <!-- Spacing 3br-->
+        <br />
+        <br />
+        <br />
+        <!-- Spacing -->
+        <b-carousel-slide caption img-src="@/assets/gallery/games/CSGO_Wallpaper.jpg"></b-carousel-slide>
+        <b-carousel-slide caption img-src="@/assets/gallery/games/Fortnite_Wallpaper.jpg"></b-carousel-slide>
+        <b-carousel-slide caption img-src="@/assets/gallery/games/Overwatch_Wallpaper.jpg"></b-carousel-slide>
       </b-carousel>
     </div>
     <!-- Space between Banner & Home Page Content -->

@@ -4,6 +4,7 @@ import Home from ".views/Home.vue";
 import Community from ".views/Community.vue";
 import Store from ".views/Store.vue";
 import About from ".views/About.vue";
+import SignUp from ".views/SignUp.vue";
 
 Vue.use(Router);
 
@@ -35,6 +36,15 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "store" */ "./views/Store.vue")
+    },
+    {
+      path: "/signup",
+      name: "/signup",
+      // route level code-splitting
+      // this generates a separate chunk (store.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "store" */ "./views/SignUp.vue")
     }
   ],
 

@@ -4,6 +4,8 @@
   <div class="footer">
     <b-container>
       <!-- Footer Design -->
+      <br />
+      <!-- Spacing -->
       <b-row>
         <!-- Row 1 -->
         <b-col align-self="start" sm>

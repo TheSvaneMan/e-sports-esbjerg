@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <!-- Front Page Banner -->
-    <div>
+    <div id="PandorasBox">
       <!-- Carousel -->
       <b-carousel
         id="carousel-fade"
@@ -32,4 +32,6 @@ export default {
 };
 </script>
 
-<style lang="scss"></style> 
+
+<style lang="scss">
+</style> 
