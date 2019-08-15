@@ -44,6 +44,7 @@ export default {
 /* Navigate Styling */
 .navigate {
   background: white;
+  height: auto;
 }
 .navbar-brand a {
   color: white;
@@ -56,14 +57,13 @@ export default {
 
 /* Main Page Style */
 
-.gamesview h1 {
+.gamesview h1, h3, p {
   color: white;
 }
 
 /* Community  */
 
 #CommunityTab {
-  
   height: 200px;
   border-style: solid;
 }
@@ -80,8 +80,9 @@ export default {
 
 .footer {
   background-color: #131723;
+  justify-content: center;
 }
-.footer h1,
+.footer h1, h2,
 h4,
 li a {
   color: white;
@@ -94,10 +95,8 @@ li a {
 
 /* FooterEndPage */
 #FooterEndPage {
-  background-color: #2c93c6;
-}
-#FooterEndPage p {
-  color: white;
+  justify-content: center;
+  background-color: #131723;
 }
 /* - - - - - - - */
 </style>

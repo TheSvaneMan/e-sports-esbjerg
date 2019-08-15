@@ -7,28 +7,47 @@
       <br />
       <!-- Spacing -->
       <b-row>
-        <!-- Row 1 -->
+        <!-- Esbjerg Info Col -->
         <b-col align-self="start" sm>
-          <!-- Left Column "Footer" -->
-          <h1>Info</h1>
+          <h2>Esbjerg E-Sports</h2>
           <ul>
             <li>admin@esport-esbjerg.dk</li>
             <li>+45 3113 1774</li>
-
-            <li></li>
           </ul>
+          <hr />
         </b-col>
-        <b-col align-self="end" sm>
-          <h1>Socials</h1>
+        <!-- Address Info Col -->
+        <b-col alight-self="center" sm>
+          <h2>Address</h2>
           <ul>
             <li>
-              <a href="https://www.facebook.com">facebook</a>
+              <a href="https://goo.gl/maps/CL7iuHSNe4zUGZdV7">Askekrattet 4</a>
             </li>
             <li>
-              <a href="https://www.instagram.com">instagram</a>
+              <a href="https://goo.gl/maps/CL7iuHSNe4zUGZdV7">6705 Esbjerg</a>
+            </li>
+          </ul>
+        </b-col>
+        <!-- Opening Hours Info Col -->
+        <b-col alight-self="center" sm>
+          <h2>Opening Hours</h2>
+          <ul>
+            <li>Monday to Thursday:</li>
+            <li>18:00 - 20:00</li>
+          </ul>
+        </b-col>
+        <!-- Socials Info Col -->
+        <b-col align-self="start" sm>
+          <h2>Socials</h2>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com">FACEBOOK</a>
             </li>
             <li>
-              <a href="https://www.discord.com">discord</a>
+              <a href="https://www.instagram.com">INSTAGRAM</a>
+            </li>
+            <li>
+              <a href="https://www.discord.com">DISCORD</a>
             </li>
           </ul>
         </b-col>

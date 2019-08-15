@@ -12,7 +12,10 @@
         img-width="1024"
         img-height="200"
       >
-        <h1>GAMES WE PLAY</h1>
+        <h1>ADVANCE YOUR GAMING SKILLS TO PRO LEVEL</h1>
+        <br>
+        <br>
+        <p>eSport Esbjerg is a public education association that gathers gaming interested people - young and old.</p>
         <!-- Spacing 3br-->
         <br />
         <br />

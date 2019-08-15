@@ -18,6 +18,7 @@
     </div>
     <!-- Space between Banner & Home Page Content -->
     <br />
+    <b-button block variant="outline-light">JOIN THE CLUB</b-button>
   </div>
 </template>
 

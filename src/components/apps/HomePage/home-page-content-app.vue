@@ -13,14 +13,22 @@
             img-src="@/assets/gallery/banner/Sign_Up.jpeg"
             img-alt="Card Image"
             text-variant="white"
-            title="ESBJERG E-SPORTS CLUB"
+            title
             sub-title
+            align-v="center"
           >
-            <!-- Sign Up Today -->
-            <div>
-              <b-button size="lg" variant="light">Sign Up</b-button>
+            <!-- Gallery Re-direct-->
+            
+
+
+            <div id="RedirectToGallery">
+              <h1>COMMUNITY</h1>
+              <b-button id="GalleryRedirect" variant="outline-primary" size="lg">
+                <router-link to="/community">Gallery</router-link>
+              </b-button>
+              <br />
+              <card-text>Explore the BattleStations</card-text>
             </div>
-            <card-text>Easily become a member today!</card-text>
           </b-card>
         </div>
       </b-col>
@@ -75,7 +83,9 @@ export default {
 <style lang="css">
 #SignUpImageOverlay {
   border-style: none;
+  text-decoration: none;
 }
+
 
 #GalleryImageOverlay {
   border-style: none;
@@ -84,6 +94,9 @@ export default {
   color: white;
   height: auto;
   border-style: none;
+}
+.router-link {
+  text-decoration-color: white;
 }
 
 #CommunityTab {
