@@ -17,12 +17,10 @@
           <b-nav-item href="#">
             <router-link to="/community">Community</router-link>
           </b-nav-item>
-          <b-nav-item href="#">
-            <router-link to="/store">Store</router-link>
-          </b-nav-item>
+          <b-nav-item href="#" disabled>Store</b-nav-item>
           <b-nav-item href="#" disabled>Account</b-nav-item>
         </b-navbar-nav>
-        
+
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <div right>

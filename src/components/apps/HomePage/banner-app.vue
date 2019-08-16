@@ -19,6 +19,7 @@
     <!-- Space between Banner & Home Page Content -->
     <br />
     <b-button pill variant="outline-light" to="/SignUp">JOIN THE CLUB</b-button>
+    
   </div>
 </template>
 

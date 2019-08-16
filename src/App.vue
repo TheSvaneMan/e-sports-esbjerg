@@ -5,22 +5,14 @@
     <NavigationApp></NavigationApp>
     <!-- Webpages View from ./views -->
     <router-view />
-    <!-- Space between Router View & Footer -->
-
     <!-- Footer -->
     <FooterApp></FooterApp>
   </div>
 </template>¨
 
 <script>
-/* Individual Page Components */
-
-/* UI Apps */
-/* Header Navigation */
 import NavigationApp from "./components/ui/navigation-app";
-/* Footer */
 import FooterApp from "./components/ui/footer-app";
-/* - - - - - - - - - - - - -  - - - - - - - - -  - - - - -  - - - - - - - -  - - */
 
 export default {
   name: "app",
@@ -32,13 +24,13 @@ export default {
 
 <style>
 /* - - - - - - - */
-/* Entire Page Styling */
+/* Entire App.vue Styling */
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: black;
+  background-color: #131723;
 }
 
 /* Navigate Styling */
@@ -64,47 +56,78 @@ p {
 }
 
 /* - - - - - - - */
-/* Sign Up Page */
+/* Sign Up Page /views*/
 .SignUpApp {
   color: white;
   text-align: center;
-  display: inline;
-  max-width: 350px;
 }
 
-/* SignUpApp Styling */
+/* SignUpApp Styling  */
 
 .SignUp {
   padding-top: 40px;
   color: white;
-  align-content: center;
-  text-align: center;
-  justify-content: center;
+  width: 480px;
 }
+
+#SignUpAppContainer {
+  display: inline;
+}
+
 
 /* - - - - - - - */
 
-/* Community Page */
+/* Community Page /views */
 .about {
   padding-top: 50px;
   height: auto;
   border-style: solid;
   text-align: center;
+  height: auto;
 }
+
+
 .about h1 {
   padding-bottom: 50px;
   color: white;
 }
-/* - - - - - - - */
-/* AboutPage */
-
 #CommunityTab {
   height: 200px;
   border-style: solid;
 }
 /* - - - - - - - */
+/* AboutPage /views */
+.FAQapp {
+  width: auto;
+}
 
-/* Footer Navigation */
+.FAQapp p {
+  color: black;
+}
+
+.FAQapp {
+  color: black;
+}
+
+#TheTeam h4 {
+  color: white;
+}
+.OurTeamApp {
+  border-style: none;
+}
+
+.about {
+  border-style: none;
+  justify-content: center;
+  justify-self: center;
+}
+/* - - - - - - - */
+/* Store Page /views*/
+.store {
+  color: white;
+}
+/* - - - - - - - */
+/* Footer Navigation App */
 
 .footer {
   background-color: #131723;
@@ -124,6 +147,11 @@ li a {
 
 .footer p {
   color: white;
+}
+
+#FooterCol {
+  justify-content: center;
+  align-content: center;
 }
 
 /* FooterEndPage */

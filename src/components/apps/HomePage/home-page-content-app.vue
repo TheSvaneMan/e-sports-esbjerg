@@ -32,6 +32,7 @@
               <br />
               <card-text></card-text>
             </div>
+            <h4>Explore the BattleStations!</h4>
           </b-card>
         </div>
       </b-col>
@@ -48,8 +49,10 @@
           <br />
           <br />
           <h1>Join the Battle Today!</h1>
-          <p>Join the community today to share your best moments, hold discussions on our Discord Server</p>
-          <p>The eSports Esbjerg Community FORUM provides game strategies, guides and features</p>
+          <hr />
+          <p>Head over to our community page to see and share your best moments, hold discussions on our Discord Server</p>
+          <p>The eSports Esbjerg Community FORUM provides game strategies, guides and features and much more!</p>
+          <hr />
           <b-button variant="outline-light" size="lg" to="/SignUp">
             <router-link to="/SignUp">Sign Up</router-link>
           </b-button>

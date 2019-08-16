@@ -4,7 +4,7 @@
     <div class="store">
       <!-- StorePage Design -->
       <!-- StorePage Design Layout -->
-      <h1>Will be updated shortly</h1>
+      <h1>Under Contrsuction</h1>
     </div>
   </div>
 </template>
@@ -16,3 +16,4 @@ import { Component, Vue } from "vue-property-decorator";
 })
 export default class store extends Vue {}
 </script>
+

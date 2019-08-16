@@ -1,14 +1,15 @@
 <template>
-  <div class="container-fluid">
+  <b-container>
     <!-- Store Page Layout -->
     <div class="SignUp">
       <hr />
       <h1>TEAM UP TODAY</h1>
       <p>Fill out the Application to join the club 2019</p>
+
+      <!-- Sign Up App -->
+      <SignUpApp></SignUpApp>
     </div>
-    <!-- Sign Up App -->
-    <SignUpApp></SignUpApp>
-  </div>
+  </b-container>
 </template>
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";

@@ -15,11 +15,13 @@
         <h1>ADVANCE YOUR GAMING SKILLS TO PRO LEVEL</h1>
         <br>
         <br>
-        <p>eSport Esbjerg is a public education association that gathers gaming interested people - young and old.</p>
+        <p>eSport Esbjerg is a Public Education Association that looks to unite and bring together people of all ages - young and old.</p>
+        <p>to game side by side: To not only play better but to enhance the gaming experience by sharing moments with others!</p>
         <!-- Spacing 3br-->
         <br />
         <br />
         <br />
+        <h1>GAMES WE PLAY</h1>
         <!-- Spacing -->
         <b-carousel-slide caption img-src="@/assets/gallery/games/CSGO_Wallpaper.jpg"></b-carousel-slide>
         <b-carousel-slide caption img-src="@/assets/gallery/games/Fortnite_Wallpaper.jpg"></b-carousel-slide>

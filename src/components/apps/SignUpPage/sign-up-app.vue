@@ -1,8 +1,7 @@
 <template>
-  <div class="SignUpApp">
-    <div class="container-fluid">
+  <div class="container-fluid">
+    <div class="SignUpApp">
       <!-- PERSONAL DATA-->
-
       <!-- FIRST NAME -->
       <div>
         <h5>First Name</h5>
@@ -69,6 +68,26 @@
         <div class="mt-2">{{ password }}</div>
         <br />
       </div>
+
+      <!-- E-Mail Notifications -->
+      <div>
+        <b-form-checkbox
+          id="checkbox-1"
+          v-model="status"
+          name="checkbox-1"
+          value="accepted"
+          unchecked-value="not_accepted"
+        >I accept the terms and use</b-form-checkbox>
+        <br />
+      </div>
+      <!-- Sign Up -->
+      <div class="text-center">
+        <b-button pill variant="primary" id="popover-button-variant" size="lg">Sign Up</b-button>
+        <b-popover target="popover-button-variant" variant="success" triggers="focus">
+          <template slot="title">Congratulations</template>
+          You have successfully sent the application
+        </b-popover>
+      </div>
     </div>
   </div>
 </template>
@@ -95,4 +114,5 @@ export default {
 </script>
 
 <style lang="">
+
 </style>

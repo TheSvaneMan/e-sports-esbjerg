@@ -1,25 +1,35 @@
 
 <template>
-  <div class="OurTeamApp">
-    <!-- Our Team  -->
-    <div>
-      <b-card no-body class="overflow-hidden" style="max-width: 540px;">
-        <b-row no-gutters>
-          <b-col md="6">
-            <b-card-img src="https://picsum.photos/400/400/?image=20" class="rounded-0"></b-card-img>
-          </b-col>
-          <b-col md="6">
-            <b-card-body title="Horizontal Card">
-              <b-card-text>
-                This is a wider card with supporting text as a natural lead-in to additional content.
-                This content is a little bit longer.
-              </b-card-text>
-            </b-card-body>
-          </b-col>
-        </b-row>
-      </b-card>
+  <b-container>
+    <div class="OurTeamApp">
+      <!-- Our Team  -->
+      <b-row>
+        <b-col id="TheTeam">
+          <!-- Our Team  -->
+          <h4>The Team</h4>
+          <hr />
+          <div>
+            <b-card
+              overlay
+              img-src="@/assets/gallery/community/esports_esbjerg_team.jpg"
+              img-alt="Card Image"
+              text-variant="white"
+              title
+              sub-title
+            ></b-card>
+          </div>
+          <hr />
+          <h4>
+            We want to help with all eSport activities in Southwest, whether it be small LAN parties, major tournaments,
+            fixed training, registration, etc. We are also creating teams that will compete on a professional level!
+            Events like these raise awareness and popularity not only within the city but make Denmark known for it worldwide.
+            We organize gatherings to game with friends, compete against each other, also workshops and
+            informative meetings with professional eSports gamers!
+          </h4>
+        </b-col>
+      </b-row>
     </div>
-  </div>
+  </b-container>
 </template>
 
 <script lang="ts">
@@ -32,3 +42,6 @@ export default {
   }
 };
 </script>
+
+<style lang="">
+</style>

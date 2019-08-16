@@ -8,16 +8,15 @@
       <!-- Spacing -->
       <b-row>
         <!-- Esbjerg Info Col -->
-        <b-col align-self="start" sm>
+        <b-col align-self="start" sm id="FooterCol">
           <h2>Esbjerg E-Sports</h2>
           <ul>
             <li>admin@esport-esbjerg.dk</li>
             <li>+45 3113 1774</li>
           </ul>
-          <hr />
         </b-col>
         <!-- Address Info Col -->
-        <b-col alight-self="center" sm>
+        <b-col alight-self="center" sm id="FooterCol">
           <h2>Address</h2>
           <ul>
             <li>
@@ -29,7 +28,7 @@
           </ul>
         </b-col>
         <!-- Opening Hours Info Col -->
-        <b-col alight-self="center" sm>
+        <b-col alight-self="center" sm id="FooterCol">
           <h2>Opening Hours</h2>
           <ul>
             <li>Monday to Thursday:</li>
@@ -37,17 +36,19 @@
           </ul>
         </b-col>
         <!-- Socials Info Col -->
-        <b-col align-self="start" sm>
-          <h2>Socials</h2>
+        <b-col align-self="start" sm id="FooterCol">
+          <h2>Social</h2>
           <ul>
             <li>
-              <a href="https://www.facebook.com">FACEBOOK</a>
+              <a href="https://www.facebook.com/eSportEsbjerg/">Facebook</a>
             </li>
             <li>
-              <a href="https://www.instagram.com">INSTAGRAM</a>
+              <a
+                href="https://discordapp.com/invite/tW6mMUm?fbclid=IwAR24FfWV-JgBr-NmwwUTPAqGvYAQNunf49UnffWVZfRtwlSZmepXymvNVy0"
+              >Discord</a>
             </li>
             <li>
-              <a href="https://www.discord.com">DISCORD</a>
+              <a href="https://esportesbjerg.createaforum.com/index.php">Forum</a>
             </li>
           </ul>
         </b-col>

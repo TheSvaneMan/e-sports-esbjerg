@@ -5,7 +5,7 @@
       <!-- Our Team App -->
       <OurTeamApp></OurTeamApp>
       <hr />
-      <!-- About Us - Discord Section -->
+      <!-- FAQ App -->
       <FAQapp></FAQapp>
     </div>
   </div>
