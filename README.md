@@ -1,3 +1,8 @@
+Created & Distributed by Penda Djunior Kanime Svane
+Service: Multimedia & Design 2nd Semester Project - 2019
+Education: Erhvervsakademi Sydvest
+
+
 # e-sports-esbjerg
 
 ## Project setup
