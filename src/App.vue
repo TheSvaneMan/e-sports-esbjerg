@@ -2,29 +2,24 @@
   <!-- WebSite Layout -->
   <div id="app">
     <!-- NavigationApp -->
-    <NavigationApp></NavigationApp>
+    <NavigationApp />
     <!-- Webpages View from ./views -->
     <router-view />
     <!-- Footer -->
-    <FooterApp></FooterApp>
+    <FooterApp />
   </div>
-</template>¨
+</template>
 
-<script>
-import NavigationApp from "./components/ui/navigation-app";
-import FooterApp from "./components/ui/footer-app";
+<script lang="ts">
+import NavigationApp from "@/components/ui/navigation-app.vue";
+import FooterApp from "@/components/ui/footer-app.vue";
 
 export default {
-  name: "app",
   components: { NavigationApp, FooterApp },
-
-  methods: {}
 };
 </script>
 
 <style>
-/* - - - - - - - */
-/* Entire App.vue Styling */
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -74,7 +69,6 @@ p {
   display: inline;
 }
 
-
 /* - - - - - - - */
 
 /* Community Page /views */
@@ -85,7 +79,6 @@ p {
   text-align: center;
   height: auto;
 }
-
 
 .about h1 {
   padding-bottom: 50px;

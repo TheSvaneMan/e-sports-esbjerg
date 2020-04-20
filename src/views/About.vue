@@ -19,10 +19,9 @@ import OurTeamApp from "@/components/apps/AboutPage/our-team-app.vue";
 
 @Component({
   components: {
-    HelloWorld,
     FAQapp,
-    OurTeamApp
-  }
+    OurTeamApp,
+  },
 })
 export default class about extends Vue {}
 </script>

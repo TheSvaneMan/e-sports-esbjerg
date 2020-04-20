@@ -1,4 +1,3 @@
-
 <template>
   <b-container>
     <div class="OurTeamApp">
@@ -20,11 +19,14 @@
           </div>
           <hr />
           <h4>
-            We want to help with all eSport activities in Southwest, whether it be small LAN parties, major tournaments,
-            fixed training, registration, etc. We are also creating teams that will compete on a professional level!
-            Events like these raise awareness and popularity not only within the city but make Denmark known for it worldwide.
-            We organize gatherings to game with friends, compete against each other, also workshops and
-            informative meetings with professional eSports gamers!
+            We want to help with all eSport activities in Southwest, whether it
+            be small LAN parties, major tournaments, fixed training,
+            registration, etc. We are also creating teams that will compete on a
+            professional level! Events like these raise awareness and popularity
+            not only within the city but make Denmark known for it worldwide. We
+            organize gatherings to game with friends, compete against each
+            other, also workshops and informative meetings with professional
+            eSports gamers!
           </h4>
         </b-col>
       </b-row>
@@ -39,9 +41,8 @@ export default {
   name: "OurTeamApp",
   data: function() {
     return {};
-  }
+  },
 };
 </script>
 
-<style lang="">
-</style>
+<style lang=""></style>

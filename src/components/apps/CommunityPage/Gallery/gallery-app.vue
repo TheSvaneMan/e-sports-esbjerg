@@ -152,7 +152,7 @@ export default {
   data() {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
     };
   },
   methods: {
@@ -161,12 +161,12 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false;
-    }
-  }
+    },
+  },
 };
 </script>
 
-<style >
+<style>
 .gallery h1 {
   color: white;
 }

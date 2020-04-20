@@ -3,9 +3,7 @@
   <div class="navigate">
     <b-navbar toggleable="lg">
       <b-navbar-brand href>
-        <router-link to="/">
-          <img src="@/assets/logo.png" alt />
-        </router-link>|
+        <router-link to="/"> <img src="@/assets/logo.png" alt /> </router-link>|
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -36,20 +34,29 @@
             <b-dropdown-item href="#">
               <div>
                 <b-form inline>
-                  <label class="sr-only" for="inline-form-input-name">Username</label>
+                  <label class="sr-only" for="inline-form-input-name"
+                    >Username</label
+                  >
                   <b-input
                     id="inline-form-input-name"
                     class="mb-2 mr-sm-2 mb-sm-0"
                     placeholder="Username"
                   ></b-input>
 
-                  <label class="sr-only" for="inline-form-input-password">Password</label>
+                  <label class="sr-only" for="inline-form-input-password"
+                    >Password</label
+                  >
                   <b-input-group prepend="@" class="mb-2 mr-sm-2 mb-sm-0">
-                    <b-input id="inline-form-input-username" placeholder="Password"></b-input>
+                    <b-input
+                      id="inline-form-input-username"
+                      placeholder="Password"
+                    ></b-input>
                   </b-input-group>
                   <b-button variant="primary">Login</b-button>
 
-                  <b-form-checkbox class="mb-2 mr-sm-2 mb-sm-0">Remember me</b-form-checkbox>
+                  <b-form-checkbox class="mb-2 mr-sm-2 mb-sm-0"
+                    >Remember me</b-form-checkbox
+                  >
                 </b-form>
               </div>
             </b-dropdown-item>
@@ -61,7 +68,5 @@
 </template>
 
 <script>
-export default {
-  name: "navigate"
-};
+export default {};
 </script>

@@ -20,8 +20,8 @@ import socials from "@/components/apps/CommunityPage/Gallery/socials-app.vue";
 @Component({
   components: {
     Gallery,
-    socials
-  }
+    socials,
+  },
 })
 export default class community extends Vue {}
 </script>

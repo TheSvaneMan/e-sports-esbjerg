@@ -1,4 +1,3 @@
-
 <template>
   <div class="HomePageContent">
     <!-- Column 1 & 2: 1 row -->
@@ -27,10 +26,9 @@
                 variant="primary"
                 size="lg"
                 to="/community"
-              >Gallery</b-button>
+                >Gallery</b-button
+              >
               <br />
-              <br />
-              <card-text></card-text>
             </div>
             <h4>Explore the BattleStations!</h4>
           </b-card>
@@ -43,15 +41,25 @@
       <b-col>
         <div class="parallax"></div>
         <div id="CommunityTab">
-          <b-img src="@/assets/gallery/community/PC_Setup1.jpg" fluid alt="Responsive image"></b-img>
+          <b-img
+            src="@/assets/gallery/community/PC_Setup1.jpg"
+            fluid
+            alt="Responsive image"
+          ></b-img>
           <br />
           <br />
           <br />
           <br />
           <h1>Join the Battle Today!</h1>
           <hr />
-          <p>Head over to our community page to see and share your best moments, hold discussions on our Discord Server</p>
-          <p>The eSports Esbjerg Community FORUM provides game strategies, guides and features and much more!</p>
+          <p>
+            Head over to our community page to see and share your best moments,
+            hold discussions on our Discord Server
+          </p>
+          <p>
+            The eSports Esbjerg Community FORUM provides game strategies, guides
+            and features and much more!
+          </p>
           <hr />
           <b-button variant="outline-light" size="lg" to="/SignUp">
             <router-link to="/SignUp">Sign Up</router-link>
@@ -79,7 +87,7 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 export default {
-  name: "HomePageContent"
+  name: "HomePageContent",
 };
 </script>
 
@@ -110,4 +118,4 @@ export default {
   border-style: none;
   padding-bottom: 50px;
 }
-</style> 
+</style>

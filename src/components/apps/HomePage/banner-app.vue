@@ -11,15 +11,23 @@
         img-width="1024"
         img-height="200"
       >
-        <b-carousel-slide caption img-src="@/assets/gallery/banner/banner_image_1.jpg"></b-carousel-slide>
-        <b-carousel-slide caption img-src="@/assets/gallery/banner/banner_image_2.jpg"></b-carousel-slide>
-        <b-carousel-slide caption img-src="@/assets/gallery/banner/banner_image_3.jpg"></b-carousel-slide>
+        <b-carousel-slide
+          caption
+          img-src="@/assets/gallery/banner/banner_image_1.jpg"
+        ></b-carousel-slide>
+        <b-carousel-slide
+          caption
+          img-src="@/assets/gallery/banner/banner_image_2.jpg"
+        ></b-carousel-slide>
+        <b-carousel-slide
+          caption
+          img-src="@/assets/gallery/banner/banner_image_3.jpg"
+        ></b-carousel-slide>
       </b-carousel>
     </div>
     <!-- Space between Banner & Home Page Content -->
     <br />
     <b-button pill variant="outline-light" to="/SignUp">JOIN THE CLUB</b-button>
-    
   </div>
 </template>
 
@@ -30,10 +38,8 @@ export default {
   name: "banner",
   data: function() {
     return {};
-  }
+  },
 };
 </script>
 
-
-<style lang="scss">
-</style> 
+<style lang="scss"></style>

@@ -17,10 +17,9 @@ import SignUpApp from "@/components/apps/SignUpPage/sign-up-app.vue";
 
 @Component({
   components: {
-    SignUpApp
-  }
+    SignUpApp,
+  },
 })
 export default class SignUp extends Vue {}
 </script>
-<style lang="">
-</style>
+<style lang=""></style>
